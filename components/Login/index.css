@@ -1,0 +1,69 @@
+.login-app-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form-div {
+  width: 30%;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 16px 1px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form-logo {
+  width: 130px;
+  margin-bottom: 20px;
+}
+.inputs-div {
+  width: 75%;
+}
+.label {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.input {
+  border: 1px solid #b6c5ff;
+  border-radius: 3px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  background: transparent;
+  outline: none;
+  padding-left: 8px;
+  color: #000000;
+  width: 100%;
+}
+.login-btn {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  background-color: #6366f1;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.showPass-div {
+  width: 75%;
+}
+.error-msg {
+  color: red;
+  font-size: 15px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .form-div {
+    width: 90%;
+  }
+}

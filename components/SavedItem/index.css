@@ -1,0 +1,24 @@
+.savedItem-li {
+  list-style-type: none;
+  padding: 30px;
+}
+.savedItem-card {
+  display: flex;
+}
+.savedItem-img {
+  width: 280px;
+}
+.savedItem-text-div {
+  margin-left: 15px;
+}
+.savedItem-title {
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.savedItem-channel {
+  font-family: 'Roboto';
+}
+.saved-item-link {
+  text-decoration: none;
+  color: black;
+}

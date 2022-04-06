@@ -1,0 +1,29 @@
+.trending-data-li {
+  list-style-type: none;
+  margin: 20px;
+  padding-top: 50px;
+  margin-top: 0px;
+}
+.trending-data-card-div {
+  display: flex;
+}
+.trending-data-img {
+  width: 450px;
+}
+.trending-data-text-div {
+  margin-left: 20px;
+}
+.trending-data-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.trending-data-channel {
+  font-family: 'Roboto';
+}
+.trending-data-publish-div {
+  display: flex;
+}
+.trending-data-views {
+  font-family: 'Roboto';
+  margin-right: 15px;
+}

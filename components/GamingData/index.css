@@ -1,0 +1,18 @@
+.gaming-data-li {
+  list-style-type: none;
+  padding: 15px;
+  width: 20%;
+}
+.gaming-data-card {
+  width: 100%;
+}
+.gaming-data-img {
+  width: 100%;
+}
+.gaming-data-title {
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.gaming-data-views {
+  font-family: 'Roboto';
+}
